@@ -70,8 +70,8 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50">
       {/* Hero section */}
       <section className="bg-[#003399] relative w-full h-96  text-white py-20 text-center">
-        <div className=" backdrop-blur-md px-5 absolute h-full flex drop-shadow-2xl flex-col justify-evenly w-full top-0 left-0 right-0 bottom-0 py-20 text-center z-10  ">
-          <h1 className="  text-3xl md:text-5xl [text-shadow:_0_3px_0_rgb(0_0_0_/_75%)] font-bold  z-10">
+        <div className=" backdrop-blur-sm px-5 absolute h-full flex drop-shadow-2xl flex-col justify-evenly w-full top-0 left-0 right-0 bottom-0 py-20 text-center z-10  ">
+          <h1 className="  text-3xl md:text-5xl  font-bold  z-10">
             Az Európai Unió Főbb Szervei
           </h1>
           <p className="mt-4 text-lg opacity-90 max-w-3xl mx-auto z-10">
@@ -129,7 +129,7 @@ export default function Home() {
           </div>
         ))}
       </section>
-      <footer className="bg-black flex flex-col text-center items-center justify-evenly h-60">
+      <footer className="bg-black text-white flex flex-col text-center items-center justify-evenly h-60">
         <p>
           Made with ❤️ by{" "}
           <a target="_blank" href="https://crossguard.online">
